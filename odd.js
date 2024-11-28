@@ -9,7 +9,9 @@ for (let num = 61; num < 100; num++) {
 
 for (let num = 78; num < 99; num++) {
   if (num % 2 == 0) {
-    console.log(num)
+    // console.log(num)
   }
 
 }
+
+
