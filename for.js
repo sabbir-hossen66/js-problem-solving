@@ -34,4 +34,15 @@ function small(a, b, c) {
   return Math.min(a,b,c)
 }
 const res = small(2, 3, 5);
-console.log(res);
+// console.log(res);
+
+//  Sum of First N Numbers: Write a program that finds the sum of the first N natural numbers.
+
+function sum(n) {
+  let sum=0
+  for (let i = 1; i < n; i++){
+ sum =sum+i;
+  }
+  return sum;
+}
+console.log(sum(101));
