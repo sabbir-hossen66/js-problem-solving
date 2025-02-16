@@ -45,4 +45,20 @@ function sum(n) {
   }
   return sum;
 }
-console.log(sum(101));
+// console.log(sum(101));
+
+
+// Check Leap Year: Write a program that checks if a given year is a leap year.
+
+function year(a) {
+
+  if ((a % 4 == 0 && (a % 100 != 0 || a % 400 == 0))) {
+     return `leap year ${a}`
+  }
+  else {
+   return console.log('not');
+    
+  }
+}
+
+console.log(year(2000));
