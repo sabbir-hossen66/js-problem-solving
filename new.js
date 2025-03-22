@@ -33,8 +33,41 @@ function sum(n) {
 }
 console.log(sum(222));
 
-// 9) Reverse a String: Write a program to reverse a string.
+//9)Write a program that reverses the digits of a given number.
 
-// function reverseString(str) {
-//   return str.split('').reverse().join('');
-// }
+function reverse(n) {
+  const numStr = n.toString();
+  let num = '';
+  for (let i = numStr.length - 1; i >= 0; i--){
+    num += numStr[i];
+  }
+  return num
+}
+console.log(reverse(1234));
+
+
+
+
+// 10) Write a program to find the smallest number among three numbers.
+function smallestNumber(a, b, c) {
+  if (a < b && a < c) {
+    return a;
+  } else if (b < a && b < c) {
+    return b;
+  } else {
+    return c;
+  }
+}
+console.log(smallestNumber(10, 2, 3));
+
+//11) Write a program to find the largest number among three numbers.
+function largestNumber(a, b, c) {
+  if (a > b && a > c) {
+    return a;
+  } else if (b > a && b > c) {
+    return b;
+  } else {
+    return c;
+  }
+}
+console.log(largestNumber(10, 2, 3));
