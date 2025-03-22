@@ -70,4 +70,26 @@ function largestNumber(a, b, c) {
     return c;
   }
 }
-console.log(largestNumber(10, 2, 3));
+// console.log(largestNumber(10, 2, 3));
+
+//12) Write a program to check whether a given number is even or odd.
+function evenOrOdd(n) {
+  if (n % 2 == 0) {
+    return 'even';
+  } else {
+    return 'odd';
+  }
+}
+console.log(evenOrOdd(10));
+
+//13) Write a program to check whether a given number is positive or negative.
+function positiveORNegative(n) {
+  if (n > 0) {
+    return 'it is positive';
+  }
+  else {
+    return 'it is negative';
+  }
+}
+
+console.log(positiveORNegative(-10));
