@@ -10,7 +10,7 @@ function divisible(n) {
 }
 
 const res = divisible(15)
-// console.log(res);
+console.log(res);
 
 // Sum of Digits: Write a program to find the sum of the digits of a given number.
 function sum(n) {
@@ -21,4 +21,20 @@ function sum(n) {
   }
   return num
 }
-console.log(sum(3456));
+// console.log(sum(235));
+
+function sum(n) {
+  const numStr = n.toString();
+  let num = 0;
+  for (let i = 0; i < numStr.length; i++){
+    num += parseInt(numStr[i]);
+  }
+  return num
+}
+console.log(sum(222));
+
+// 9) Reverse a String: Write a program to reverse a string.
+
+// function reverseString(str) {
+//   return str.split('').reverse().join('');
+// }
